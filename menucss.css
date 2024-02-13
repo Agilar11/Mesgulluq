@@ -1,0 +1,126 @@
+*{padding: 0;
+margin: 0;
+}
+
+
+
+body {
+    background-color: rgb(224, 211, 195);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: stretch;
+}
+p1{
+    justify-content: center;
+}
+
+
+
+
+.photo1 img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.one {
+    margin-top: 15px;
+    width: 40%;
+    
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.price {
+    color: #4CAF50;
+    font-weight: bold;
+    justify-content: right;
+}
+.littleContainer{
+    display: flex;
+    
+    justify-content: center;
+    background-color: rgb(205, 205, 189);
+    align-items: stretch;
+    padding: 5px,5px,5px,5px;
+    margin: 5px,5px,5px,5px;
+    
+
+}
+.two{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+span{
+    display: flex;
+margin-left: 100px;    
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #120404; 
+}
+
+
+.little2Container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ece3e3;
+    border-radius: 8px;
+    max-width: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.one {
+    margin-top: 15px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #120404; 
+}
+
+.one p {
+    margin-top: 10px;
+    color: #555;  
+}
